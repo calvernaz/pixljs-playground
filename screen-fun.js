@@ -21,3 +21,8 @@ g.drawLine(g.getWidth()/2 + 16, g.getHeight()/2 - 16, g.getWidth()/2 + 16, g.get
 g.drawLine(g.getWidth()/2 - 16, g.getHeight()/2 + 16, g.getWidth()/2 + 16, g.getHeight()/2 + 16);
 
 g.flip();
+
+// same as above but with the drawRect function
+g.clear()
+g.drawRect(g.getWidth()/2 - 16, g.getHeight()/2 - 16, g.getWidth()/2 + 16, g.getHeight()/2 + 16);
+g.flip();

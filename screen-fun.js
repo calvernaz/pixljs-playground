@@ -26,3 +26,11 @@ g.flip();
 g.clear()
 g.drawRect(g.getWidth()/2 - 16, g.getHeight()/2 - 16, g.getWidth()/2 + 16, g.getHeight()/2 + 16);
 g.flip();
+
+// split the screen in 4
+g.clear();
+
+g.drawLine(g.getWidth()/2, 0, g.getWidth()/2, g.getHeight());
+g.drawLine(0, g.getHeight()/2, g.getWidth(), g.getHeight()/2);
+
+g.flip();
